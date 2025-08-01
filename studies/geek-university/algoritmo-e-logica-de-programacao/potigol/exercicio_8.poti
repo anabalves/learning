@@ -1,0 +1,6 @@
+imprima "Informe o primeiro numero: "
+num1 = leia_inteiro
+imprima "Informe o segundo numero: "
+num2 = leia_inteiro
+
+escreva "A soma de {num1} com {num2} eh igual a {num1 + num2}"

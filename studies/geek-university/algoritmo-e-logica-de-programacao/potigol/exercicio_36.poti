@@ -1,0 +1,17 @@
+var vetor = Lista.mutavel(0,0)
+var maiores_50 := falso
+
+para i de 1 ate 10 faca
+    imprima "Informe um valor: "
+    valor = leia_inteiro
+    vetor := vetor + [valor]
+    
+    se valor > 50 entao 
+        escreva "Valor {valor} maior que 50 na posicao {i}"
+        maiores_50 := verdadeiro
+    fim
+fim 
+
+se maiores_50 == falso entao 
+    escreva "Nao existem valores maiores do que 50"
+fim

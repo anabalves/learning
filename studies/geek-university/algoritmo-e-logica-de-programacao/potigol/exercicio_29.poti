@@ -1,0 +1,15 @@
+var nome_usuario := ""
+var senha := ""
+
+imprima "Informe o usuario: "
+nome_usuario := leia_texto
+imprima "Informe a senha: "
+senha := leia_texto
+
+enquanto nome_usuario == senha faca 
+    escreva "Senha nao pode ser igual ao nome de usuario"
+    imprima "Informe o usuario: "
+    nome_usuario := leia_texto
+    imprima "Informe a senha: "
+    senha := leia_texto
+fim  

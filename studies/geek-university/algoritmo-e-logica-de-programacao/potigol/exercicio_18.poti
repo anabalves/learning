@@ -1,0 +1,17 @@
+var peso_ideal := 0.0
+
+imprima "Informe a altura: "
+altura = leia_real
+imprima "Informe o sexo (m/f): "
+sexo = leia_texto
+
+se (sexo == "m" ou sexo == "M") entao 
+    peso_ideal := (72.7 * altura) - 58
+senaose (sexo == "f" ou sexo == "F") entao 
+    peso_ideal := (62.1 * altura) - 44.7
+senao 
+    escreva "Sexo nao reconhecido"
+fim
+
+pideal = peso_ideal formato "%.2f"
+escreva "Seu peso ideal eh = {pideal}"

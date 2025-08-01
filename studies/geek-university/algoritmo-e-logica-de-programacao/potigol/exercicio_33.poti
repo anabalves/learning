@@ -1,0 +1,19 @@
+var vetor1 = Lista.mutavel(0,0)
+var vetor2 = Lista.mutavel(0,0)
+var vetor3 = Lista.mutavel(0,0)
+
+para i de 1 ate 10 faca
+    imprima "Digite um valor para o primeiro vetor: "
+    valor1 = leia_inteiro
+    vetor1 := vetor1 + [valor1]
+
+    imprima "Digite um valor para o segundo vetor: "
+    valor2 = leia_inteiro
+    vetor2 := vetor2 + [valor2]
+
+    vetor3 := vetor3 + [valor1 + valor2]
+fim 
+
+para valor em vetor3 faca
+    escreva valor
+fim

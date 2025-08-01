@@ -1,0 +1,15 @@
+var vetor = Lista.mutavel(0,0)
+var pares = Lista.mutavel(0,0)
+
+para i de 1 ate 5 faca
+    imprima "Informe um valor: "
+    valor = leia_inteiro
+    vetor := vetor + [valor]
+    se (valor > 0) e (valor mod 2 == 0) entao 
+        pares := pares + [valor]
+    fim
+fim 
+
+para valor em pares faca
+    escreva valor
+fim

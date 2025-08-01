@@ -1,0 +1,9 @@
+// 25 - Faca um algoritmo que determine o maior entre N numeros. A condicao de parada e a entrada de um valor 0, ou seja, o algoritmo deve ficar calculado o maior ate que a entrada seja igual a 0 (ZERO).
+
+maior = 0
+receber valor
+enquanto valor != 0 processar
+	se valor > maior entao 
+		maior = valor
+	receber valor
+escrever "Maior valor " + maior

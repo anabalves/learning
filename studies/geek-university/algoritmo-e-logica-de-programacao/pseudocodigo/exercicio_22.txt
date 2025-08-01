@@ -1,0 +1,15 @@
+// 22 - Faca um algoritmo que leia um numero inteiro e mostre uma mensagem indicando se este numero e par ou impar, e se e positivo ou negativo.
+
+receber numero
+se numero == 0 então:
+	escreva "Número neutro"
+se (numero % 2 == 0) então
+    se numero > 0 então
+        escreva "Número par positivo"
+    senão
+        escreva "Número par negativo"
+senão
+    se numero > 0 então
+        escreva "Número ímpar positivo"
+    senão
+        escreva "Número ímpar negativo"

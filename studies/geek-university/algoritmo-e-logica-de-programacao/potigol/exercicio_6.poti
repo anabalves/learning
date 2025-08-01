@@ -1,0 +1,8 @@
+imprima "Informe a quantidade minima: "
+qtdMin = leia_inteiro
+imprima "Informe a quantidade maxima: "
+qtdMax = leia_inteiro
+
+estoqueMedio = (qtdMin + qtdMax) / 2
+
+escreva "O estoque medio eh: {estoqueMedio}"

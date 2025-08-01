@@ -1,0 +1,14 @@
+// 16 - Elabore um algoritmo que leia um numero. Se positivo armazene-o em 'a', se for negativo, em 'b'. No final mostrar o resultado.
+
+receber valor
+se numero == 0 então
+   escrever "valor neutro"
+   escrever numero
+se numero > 0 então
+   a = numero
+   escrever "valor positivo"
+   escrever a
+senão
+   b = numero
+   escrever "valor negativo"
+   escrever b

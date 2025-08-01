@@ -1,0 +1,6 @@
+imprima "Informe sua altura: "
+altura = leia_real
+
+pesoIdeal = (72.7 * altura) - 58
+pesoIdealFormat = pesoIdeal formato "%.2f"
+escreva "Seu peso ideal eh {pesoIdealFormat}"

@@ -1,0 +1,6 @@
+// 26 - Faca um algoritmo que conte de 1 a 100 e a cada multiplo de 10 emita uma mensagem "Multiplo de 10".
+
+para i = 1, enquanto i <= 100, processar
+	escrever i
+	se (i % 10 == 0) entao 
+		escrever "Multiplo de 10: " + i

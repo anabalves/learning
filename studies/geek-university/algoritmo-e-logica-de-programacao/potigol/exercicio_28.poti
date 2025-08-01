@@ -1,0 +1,24 @@
+var maior := -999
+var menor := 999
+var soma := 0
+var valor := 0
+
+para i de 1 ate 10 faca
+    imprima "Informe o valor {i}/10: "
+    valor := leia_inteiro
+    enquanto valor < 0 faca 
+        imprima "Informe o valor {i}/10: "
+        valor := leia_inteiro
+    fim  
+    se (valor > maior) entao
+        maior := valor
+    fim
+    se (valor < menor) entao
+        menor := valor
+    fim
+    soma := soma + valor
+fim
+
+escreva "Maior: {maior}"
+escreva "Menor: {menor}"
+escreva "Media: {soma / 10}"

@@ -1,0 +1,16 @@
+var numero := 0
+
+imprima "Informe um numero: "
+numero := leia_inteiro
+
+enquanto numero < 1 ou numero > 10 faca 
+    escreva "Numero deve estar entre 1 e 10"
+    imprima "Informe um numero: "
+    numero := leia_inteiro
+fim 
+
+escreva "Tabuada de {numero}:"
+
+para i de 1 ate 10 faca
+    escreva "{numero} X {i} = {numero * i}"
+fim

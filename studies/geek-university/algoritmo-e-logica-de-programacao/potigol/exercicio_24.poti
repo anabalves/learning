@@ -1,0 +1,16 @@
+imprima "Informe a idade: "
+idade = leia_inteiro
+
+se (idade >= 5 e idade <= 7) entao 
+    escreva "Infaltil A"
+senaose (idade >= 8 e idade <= 11) entao 
+    escreva "Infaltil B"
+senaose (idade >= 12 e idade <= 13) entao 
+    escreva "Juvenil A"
+senaose (idade >= 14 e idade <= 17) entao 
+    escreva "Juvenil B"
+senaose (idade >= 18) entao 
+    escreva "Adulto"
+senao
+    escreva "Idade abaixo do limite"
+fim

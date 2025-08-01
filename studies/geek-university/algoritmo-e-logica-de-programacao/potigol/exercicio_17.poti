@@ -1,0 +1,13 @@
+var p := 0
+var i := 0
+
+imprima "Informe um numero: "
+numero = leia_inteiro
+
+se (numero mod 2 == 0) entao 
+    p := numero
+senao
+    i := numero
+fim
+
+escreva "p = {p}, i = {i}"

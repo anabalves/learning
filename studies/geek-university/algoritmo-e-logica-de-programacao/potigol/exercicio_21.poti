@@ -1,0 +1,22 @@
+imprima "Informe o primeiro numero: "
+num1 = leia_inteiro
+imprima "Informe o segundo numero: "
+num2 = leia_inteiro
+imprima "Informe o terceiro numero: "
+num3 = leia_inteiro
+imprima "Informe o quarto numero: "
+num4 = leia_inteiro
+
+q1 = num1 * num1
+q2 = num2 * num2
+q3 = num3 * num3
+q4 = num4 * num4
+
+se q3 >= 1000 entao 
+    escreva q3
+senao 
+    escreva "O quadrado de {num1} eh {q1}"
+    escreva "O quadrado de {num2} eh {q2}"
+    escreva "O quadrado de {num3} eh {q3}"
+    escreva "O quadrado de {num4} eh {q4}"
+fim

@@ -1,0 +1,16 @@
+var excesso := 0.0
+var multa := 0.0
+
+imprima "Informe o peso de peixes: "
+peso = leia_real
+
+se peso > 50 entao 
+    excesso := peso - 50
+    multa := excesso * 4
+senao 
+    escreva "Voce nao tem excessos nem multas"
+fim
+
+escreva "Peso: {peso}"
+escreva "Excesso: {excesso}"
+escreva "Multa: {multa}"

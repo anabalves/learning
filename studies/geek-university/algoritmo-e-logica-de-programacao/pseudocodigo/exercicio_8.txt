@@ -1,0 +1,13 @@
+// 8 - Faca um algoritmo que peca dois numeros e imprima a soma.
+
+"somar"
+
+// Entradas:
+receber primeiro numero
+receber segundo numero
+
+// Processamento:
+somar os dois numeros recebidos
+
+// Saida:
+mostrar o resultado da soma

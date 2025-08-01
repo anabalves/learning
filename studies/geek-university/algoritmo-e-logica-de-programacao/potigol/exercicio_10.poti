@@ -1,0 +1,6 @@
+imprima "Informe a quantidade de horas trabalhadas: "
+qtdHoras = leia_real
+imprima "Informe o valor da hora: "
+valorHora = leia_real
+
+escreva "Voce ira receber neste mes R$ {qtdHoras * valorHora}"

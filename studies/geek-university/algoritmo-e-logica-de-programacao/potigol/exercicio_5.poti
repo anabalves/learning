@@ -1,0 +1,11 @@
+imprima "Informe o codigo da peca: "
+cod = leia_inteiro
+imprima "Informe o valor da peca: "
+valor = leia_real
+imprima "Informe a quantidade de pecas: "
+qtd = leia_inteiro
+
+total = qtd * valor
+
+escreva "Codigo da peca: {cod}"
+escreva "Valor total: {total}"

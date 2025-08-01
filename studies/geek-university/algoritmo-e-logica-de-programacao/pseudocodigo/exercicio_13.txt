@@ -1,0 +1,11 @@
+// 13 - Sabendo que a = 3, b = 7 e c = 4, informe se as expressoes abaixo sao verdadeiras ou falsas.
+
+a) (a + c) > b      ( ) Verdadeira (x) Falsa -> (3 + 4) > 7 -> (7) > 7 -> Falsa
+
+b) b >= (a + 2)     (x) Verdadeira ( ) Falsa -> 7 >= (3 + 2) -> 7 >= (5) -> Verdadeira
+
+c) c == (b - a)     (x) Verdadeira ( ) Falsa -> 4 == (7 - 3) -> 4 == (4) -> Verdadeira 
+
+d) (b + a) <= c     ( ) Verdadeira (x) Falsa -> (7 + 3) <= 4 -> (10) <= 4 -> Falsa 
+
+e) (c + a) > b      ( ) Verdadeira (x) Falsa -> (4 + 3) > 7 -> (7) > 7 -> Falsa  

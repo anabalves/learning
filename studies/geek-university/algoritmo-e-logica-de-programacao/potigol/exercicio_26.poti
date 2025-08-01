@@ -1,0 +1,5 @@
+para i de 1 ate 100 faca
+    se (i mod 10 == 0) entao
+        escreva "{i} eh multiplo de 10"
+    fim
+fim

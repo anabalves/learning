@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "troco", "troco\troco.csproj", "{FF04C99B-8097-4063-882A-A83A4B0CC82A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF04C99B-8097-4063-882A-A83A4B0CC82A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF04C99B-8097-4063-882A-A83A4B0CC82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF04C99B-8097-4063-882A-A83A4B0CC82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF04C99B-8097-4063-882A-A83A4B0CC82A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F64DDEAE-9667-4EEE-932F-FB0F27C32D09}
+	EndGlobalSection
+EndGlobal

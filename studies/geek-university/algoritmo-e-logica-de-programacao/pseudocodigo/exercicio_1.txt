@@ -1,0 +1,16 @@
+// 1 - Crie uma sequencia logica para tomar banho.
+
+"tomar banho"
+
+entrar no banheiro
+tirar a roupa 
+ligar o chuveiro
+molhar o corpo
+desligar o chuveiro
+ensaboar o corpo
+lavar o corpo
+tirar o sabao
+desligar o chuveiro
+enxugar-se
+vestir a roupa
+sair do banheiro

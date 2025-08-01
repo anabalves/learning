@@ -1,0 +1,11 @@
+// 19 - Joao da Silva, pescador, comprou um microcomputador para controlar o rendimento diario de seu trabalho. Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento de pesca do estado de Sao Paulo (50 quilos) deve pagar uma multa de R$ 4,00 por quilo excedente. Joao precisa que voce faca um algoritmo que leia a variavel 'p' (peso de peixes) e verifique se ha excesso. Se houver, gravar a variavel 'e' (excesso) e na variavel 'm' o valor da multa que joao devera pagar. Caso contrario mostrar tais variaveis com o conteudo 'zero'.
+
+e = 0
+m = 0
+receber peso
+se peso > 50 entao
+	e = peso - 50
+	m = e * 4
+escrever "Peso: " + peso
+escrever "Excesso: " + e
+escrever "Multa: " + m

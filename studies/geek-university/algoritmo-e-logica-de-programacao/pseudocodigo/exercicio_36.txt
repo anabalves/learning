@@ -1,0 +1,12 @@
+// 36 - Faca um programa que carregue um vetor com dez numeros inteiros. Calcule e mostre os numeros superiores a 50 e suas respectivas posicoes. Mostrar mensagem se nao existir nenhum numero nesta condicao.
+
+vetor[10] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+maiores_50 = falso
+para i = 0, enquanto i < 10, processar
+    escrever "Digite um valor: "
+    receber vetor[i]
+    se vetor[i] > 50 então
+        escrever "Valor " + vetor[i] + " maior do que 50 na posição " + i
+        maiores_50 = verdadeiro
+se maiores_50 == falso então
+    escrever "Não existem valores maiores do que 50" 

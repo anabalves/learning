@@ -1,0 +1,18 @@
+// 5 - Identifique os dados de entrada, processamento e saida do algoritmo abaixo:
+// receber codigo da peca
+// receber valor da peca
+// receber quantidade de pecas
+// calcular valor total da peca (quantidade * valor da peca)
+// mostrar o codigo da peca e seu valor total
+
+Entradas:
+- receber codigo da peca
+- receber valor da peca
+- receber quantidade de pecas
+
+Processamento:
+- calcular valor total da peca (quantidade * valor da peca)
+
+
+Saida:
+- mostrar o codigo da peca e seu valor total

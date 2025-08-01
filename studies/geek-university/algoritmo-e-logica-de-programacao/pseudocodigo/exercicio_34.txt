@@ -1,0 +1,8 @@
+// 34 - Faca um programa que carregue um vetor com dez numeros inteiros. Mostre o vetor na ordem inversa a que foi digitado.
+
+vetor[10] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+para i = 0, enquanto i < 10, processar
+   escrever "Digite um valor: "
+   receber vetor[i]
+para i = 9, enquanto i >= 0, processar
+   escrever vetor[i]

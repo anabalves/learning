@@ -1,0 +1,18 @@
+var excedente := 0.0
+var horas := 0.0
+
+imprima "Informe o codigo do funcionario: "
+codigo = leia_inteiro
+imprima "Informe a quantidade de horas trabalhadas: "
+horas := leia_real
+
+se horas > 50 entao 
+    excedente := horas - 50
+    horas := horas - excedente
+fim
+
+extra = excedente * 20
+salario = (horas * 10) + extra
+
+escreva "Salario: {salario}"
+escreva "Extra: {extra}"

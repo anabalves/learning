@@ -1,0 +1,24 @@
+// 3 - Descreva com detalhes a sequencia logica para trocar um pneu de um carro.
+
+"trocar pneu"
+
+parar o carro
+descer do carro
+abrir o porta-malas
+pegar o triangulo de seguranca
+pegar a chave de rodas
+pegar o estepe
+pegar o macaco
+colocar o triangulo de seguranca
+usar o macaco para levantar o carro
+usar a chave de rodas para remover os parafusos
+remover o pneu furado 
+colocar o pneu estepe
+usar a chave de rodas para colocar os parafusos 
+baixar o carro usando o macaco
+remover o triangulo de seguranca
+guardar a chave de rodas, macaco, triangulo e pneu furado no porta-malas
+fechar o porta-malas
+entrar no carro
+ligar o carro
+partir

@@ -1,0 +1,15 @@
+// 37 - Faca um programa que receba um codigo numerico inteiro e um vetor de cinco posicoes de numeros reais. Se o codigo for zero, termine o programa. Se o codigo for 1, mostre o vetor na ordem direta. Se o codigo for 2, mostre o vetor na ordem inversa.
+
+vetor[5] = [0, 0, 0, 0, 0]
+escrever "Digite o código: "
+receber codigo
+se codigo != 0 então
+    para i = 0, enquanto i < 5, processar
+        escrever "Digite um valor: "
+        receber vetor[i]
+    se codigo == 1 então
+        para i = 0, enquanto i < 5, processar
+            escrever vetor[i]
+    se codigo == 2 então
+        para i = 4, enquanto i <= 0, processar
+            escrever vetor[i]

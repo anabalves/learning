@@ -1,0 +1,13 @@
+// 10 - Faca um algoritmo que pergunte quanto voce ganha por hora e o numero de horas trabalhadas no mes. Calcule e mostre o total do seu salario no referido mes.
+
+"calcular total salario"
+
+// Entradas:
+receber a quantidade_de_horas_trabalhadas
+receber o valor_da_hora
+
+// Processamento:
+calcular total salario com a formula total_salario = quantidade_de_horas_trabalhadas * valor_da_hora
+
+// Saida:
+mostrar o total_salario

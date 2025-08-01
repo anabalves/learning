@@ -1,0 +1,9 @@
+escreva "Informe o primeiro numero: "
+num1 = leia_inteiro
+escreva "Informe o segundo numero: "
+num2 = leia_inteiro
+
+soma = num1 + num2
+multi = soma * num1
+
+escreva "O resultado eh: {multi}"

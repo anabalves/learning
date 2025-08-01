@@ -1,0 +1,16 @@
+imprima "Informe um numero: "
+numero = leia_inteiro
+
+se (numero mod 2 == 0) entao 
+    se numero > 0 entao 
+        escreva "{numero} eh par e positivo"
+    senao 
+        escreva "{numero} eh par e negativo"
+    fim
+senao 
+    se numero > 0 entao 
+        escreva "{numero} eh impar e positivo"
+    senao 
+        escreva "{numero} eh impar e negativo"
+    fim
+fim

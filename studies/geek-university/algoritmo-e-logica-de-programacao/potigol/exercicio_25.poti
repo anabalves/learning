@@ -1,0 +1,12 @@
+var maior := -999
+var numero := -1
+
+enquanto numero <> 0 faca
+    imprima "Informe um numero: "
+    numero := leia_inteiro
+    se (numero > maior) entao 
+        maior := numero
+    fim
+fim
+
+escreva "O maior numero eh {maior}"

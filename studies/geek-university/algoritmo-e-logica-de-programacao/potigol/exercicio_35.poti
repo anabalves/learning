@@ -1,0 +1,15 @@
+var vetor = Lista.mutavel(0,0)
+var soma := 0
+
+para i de 1 ate 20 faca
+    imprima "Informe um valor: "
+    valor = leia_inteiro
+    vetor := vetor + [valor]
+    soma := soma + valor
+fim 
+
+para valor em vetor faca
+    escreva valor
+fim
+
+escreva "A soma eh {soma}"

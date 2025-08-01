@@ -1,0 +1,12 @@
+imprima "Informe um numero: "
+numero = leia_inteiro
+
+se numero == 0 entao 
+    escreva "O valor {numero} eh neutro."
+senãose numero > 0 entao
+    a = numero
+    escreva "O valor {a} eh positivo."
+senao
+    b = numero
+    escreva "O valor {b} eh negativo."
+fim

@@ -1,0 +1,15 @@
+// 24 - Elabore um algoritmo que dada a idade de um nadador classifique-o em uma das categorias: infantil-a = 5 a 7 anos; infantil-b = 8 a 11 anos; juvenil-a = 12 a 13 anos; juvenil-b = 14 a 17 anos; adultos = maiores de 18 anos.
+
+receber idade
+se (idade >= 5) AND (idade <= 7) entao
+	escrever "Infaltil A"
+se (idade >= 8) AND (idade <= 11) entao
+	escrever "Infaltil B"
+se (idade >= 12) AND (idade <= 13) entao
+	escrever "Juvenil A"
+se (idade >= 14) AND (idade <= 17) entao
+	escrever "Juvenil B"
+se (idade >= 18) entao
+	escrever "Adulto"	
+senão
+   escrever "Idade abaixo do limite"

@@ -1,0 +1,11 @@
+var vetor = Lista.mutavel(0,0)
+
+para i de 1 ate 10 faca
+    imprima "Digite um valor: "
+    valor = leia_inteiro
+    vetor := vetor + [valor]
+fim 
+
+para i de 10 ate 1 passo -1 faca
+    escreva vetor[i]
+fim

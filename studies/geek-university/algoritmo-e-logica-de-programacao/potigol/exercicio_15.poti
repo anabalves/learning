@@ -1,0 +1,9 @@
+imprima "Informe um valor: "
+var valor := leia_inteiro
+
+se valor > 100 entao
+    escreva valor
+senao
+    valor := 0
+    escreva valor
+fim

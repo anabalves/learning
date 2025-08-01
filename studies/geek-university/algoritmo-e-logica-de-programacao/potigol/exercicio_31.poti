@@ -1,0 +1,40 @@
+var quantidade, d1, d2, d3, d4, id, defeito := 0
+var pd1, pd2, pd3, pd4 := 0.0
+
+escreva "Defeitos:"
+escreva "1 - necessita da esfera"
+escreva "2 - necessita de limpeza"
+escreva "3 - necessita de troca do cano ou conector"
+escreva "4 - quebrado ou inutilizado"
+
+imprima "Informe o identificador: "
+id := leia_inteiro
+enquanto id <> 0 faca 
+    imprima "Informe o defeito: "
+    defeito := leia_inteiro
+
+    se (defeito == 1) entao
+        d1 := d1 + 1
+    senaose (defeito == 2) entao
+        d2 := d2 + 1
+    senaose (defeito == 3) entao
+        d3 := d3 + 1
+    senaose (defeito == 4) entao
+        d4 := d4 + 1
+    fim
+    quantidade := quantidade + 1
+    imprima "Informe o identificador: "
+    id := leia_inteiro
+fim 
+
+pd1 := (d1 * 100) / quantidade
+pd2 := (d2 * 100) / quantidade
+pd3 := (d3 * 100) / quantidade
+pd4 := (d4 * 100) / quantidade
+
+escreva "Quantidade de mouses: {quantidade}"
+escreva "Situacao                                       Quantidade               Percentual"
+escreva "1 - Necessita da esfera                            {d1}                      {pd1}%"
+escreva "2 - Necessita de limpeza                           {d2}                      {pd2}%"
+escreva "3 - Necessita de troca de cabo ou conector         {d3}                      {pd3}%"
+escreva "4 - Quebrado ou inutilizado                        {d4}                      {pd4}%"

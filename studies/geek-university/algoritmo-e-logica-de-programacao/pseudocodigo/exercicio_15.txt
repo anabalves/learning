@@ -1,0 +1,8 @@
+// 15 - Ler uma variavel numerica n e imprimi-la somente se a mesma for maior que 100, caso contrario imprimi-la com valor zero.
+
+receber valor
+se valor > 100 entao
+	escrever valor
+senao
+	valor = 0
+	escrever valor

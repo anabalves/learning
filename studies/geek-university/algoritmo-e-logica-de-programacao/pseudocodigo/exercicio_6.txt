@@ -1,0 +1,15 @@
+// 6 - Faca um algoritmo para "calcular o estoque medio de uma peca", sendo que:
+// estoque_medio = (quantidade_minima + quantidade_maxima) / 2
+
+
+"calcular o estoque medio"
+
+// Entradas:
+receber quantidade_minima
+receber quantidade_maxima
+
+// Processamento:
+calcular o estoque medio com a formula estoque_medio = (quantidade_minima + quantidade_maxima) / 2
+
+// Saida:
+mostrar o estoque_medio

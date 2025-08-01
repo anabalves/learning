@@ -1,0 +1,10 @@
+// 2 - Faca um algoritmo para somar dois numeros e multiplicar o resultado pelo primeiro numero.
+
+"somar e multiplicar"
+
+receber o primeiro numero
+receber o segundo numero
+somar o primeiro numero com o segundo numero
+mostrar o resultado da soma
+multiplicar a soma dos numeros pelo primeiro numero
+mostrar o resultado da multiplicacao

@@ -1,0 +1,4 @@
+imprima "Informe o valor em metros: "
+metros = leia_real
+
+escreva "{metros} em centimetros eh igual a {metros * 100}"

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "temperatura", "temperatura\temperatura.csproj", "{FCC9F857-5CCD-4668-97AA-2B1539ED19DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCC9F857-5CCD-4668-97AA-2B1539ED19DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC9F857-5CCD-4668-97AA-2B1539ED19DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC9F857-5CCD-4668-97AA-2B1539ED19DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC9F857-5CCD-4668-97AA-2B1539ED19DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B22AE4E2-27B8-417B-B359-50DF2A27AB01}
+	EndGlobalSection
+EndGlobal

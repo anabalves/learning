@@ -1,0 +1,12 @@
+// 4 - Faca um algoritmo para trocar uma lampada. Descreva os detalhes.
+
+"trocar lampada"
+
+desligar o interruptor de luz
+pegar uma nova lampada
+pegar uma cadeira/escada
+subir na cadeira/escada
+retirar a lampada queimada
+colocar a nova lampada
+descer da cadeira/escada
+ligar o interruptor de luz

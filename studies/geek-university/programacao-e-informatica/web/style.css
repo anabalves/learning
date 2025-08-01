@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header,
+main,
+footer {
+  flex-shrink: 0;
+}
+
+header {
+  overflow: hidden;
+  background-color: #000000;
+  padding: 20px 10px;
+}
+
+header a {
+  float: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+header a:hover {
+  background-color: rgb(27, 27, 27);
+  color: rgb(255, 255, 255);
+}
+
+header a.active {
+  background-color: #005470;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+main {
+  flex-grow: 1;
+}
+
+button {
+  margin: 10px;
+  background-color: #005470;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.content {
+  text-align: justify;
+  overflow: hidden;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

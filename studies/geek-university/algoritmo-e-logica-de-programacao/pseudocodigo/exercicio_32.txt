@@ -1,0 +1,12 @@
+// 32 - Faca um algoritmo que carregue um vetor de 5 elementos inteiros e em seguida armazene em um vetor apenas os numeros pares maiores que 0. No final deve mostrar os elementos do vetor na tela.
+
+vetor = [0, 0, 0, 0, 0]
+pares = []
+contador = 0
+para i = 0, enquanto i < 5, processar
+    escrever "Digite um valor: "
+    receber vetor[i]
+    se (vetor[i] > 0) AND (vetor[i] % 2 == 0) então
+         pares[contador] = vetor[i]
+         contador = contador + 1
+escrever pares

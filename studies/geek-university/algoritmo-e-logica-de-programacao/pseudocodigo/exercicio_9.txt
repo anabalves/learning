@@ -1,0 +1,13 @@
+// 9 - Faca um algoritmo que converta metros para centimetros.
+// 1 metro == 100 centimetros
+
+"converter metros para centimetros"
+
+// Entradas:
+receber o comprimento em metros
+
+// Processamento:
+multiplicar o comprimento por 100
+
+// Saida:
+mostrar o resultado da conversao

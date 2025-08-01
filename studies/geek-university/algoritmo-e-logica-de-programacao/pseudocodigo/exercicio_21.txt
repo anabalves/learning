@@ -1,0 +1,17 @@
+// 21 - Desenvolva um algoritmo que: a) Leia 4 (quatro) numeros; b) Calcule o quadrado de cada um; c) Se o valor resultado do quadrado do terceiro for >= 1000, imprima-o e finalize; d) Caso contrario, imprima os valores lidos e seus respectivos quadrados.
+
+receber n1
+receber n2
+receber n3
+receber n4
+q1 = n1 ** 2
+q2 = n2 ** 2
+q3 = n3 ** 2
+q4 = n4 ** 2
+se q3 >= 1000 entao
+	escrever q3
+senao
+	escrever n1 e q1
+	escrever n2 e q2
+	escrever n3 e q3
+	escrever n4 e q4
