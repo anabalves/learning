@@ -41,6 +41,9 @@ This repository covers key concepts across:
 ## 📝 Notes
 
 Content is written in **English** for consistency and public sharing.
+
 Platforms are mentioned inside the files when relevant.
+
 This is a **work in progress** — new topics will be added as I keep learning.
+
 Most notes are hands-on and meant to be practical and applicable.
