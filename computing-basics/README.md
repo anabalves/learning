@@ -1,14 +1,14 @@
 # 🖥️ Computing Basics
 
-Fundamentals of computing, ideal for those starting in tech.
+My notes and hands-on exercises covering core computing fundamentals for beginners.
 
 ## 📘 Covered Topics
 
-- Operating Systems (Windows, Linux, Mac)
-- Computer networks and the internet
-- Programming and scripting fundamentals
-- Databases and system hosting
-- Introduction to Python, Java, and web development (HTML, CSS, JS)
+- Operating Systems: concepts, architecture & command-line basics
+- Computer Networks: TCP/IP, DNS & HTTP/S
+- Programming & Scripting Foundations: variables, control flow & functions
+- Databases & Hosting: relational vs NoSQL & basic deployment
+- Intro to Python, Java & Web Development: HTML, CSS & JavaScript
 
 ## 🎓 Sources
 
