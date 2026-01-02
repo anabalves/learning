@@ -1,16 +1,30 @@
-# 🔧 Ansible
+# 🔧 Ansible & Configuration Automation
 
-My notes and hands-on exercises for Ansible configuration management.
+Notes, labs and real-world playbooks using Ansible for  
+configuration management and provisioning.
 
-## 📘 Covered Topics
+## 🧠 Covered Topics
 
-- Ansible CLI, ad-hoc commands & inventory (static/dynamic)
-- Playbooks, tasks, modules & YAML syntax
-- Roles, handlers & reusable code
-- Templates (Jinja2), Vault & variables
-- Provisioning workflows & idempotency
+### **Core Concepts**
+- Architecture (control node, managed nodes)
+- Agentless automation
+- Inventory (static & dynamic)
 
-## 🎓 Sources
+### **Playbooks & Roles**
+- Tasks, handlers, variables
+- Templates (Jinja2)
+- Roles & best practices
+- Ansible Galaxy
+
+### **Automation Use Cases**
+- Server provisioning
+- Package installation
+- User management
+- Deployments and service configuration
+
+## 📚 Sources
 
 - [Ansible Official Documentation](https://docs.ansible.com)
-- [Full Cycle 3.0 – Ansible](https://fullcycle.com.br)
+- [Ansible - Full Cycle 3.0](https://fullcycle.com.br)
+- [Ansible para SysAdmin - Phillipe Farias (Udemy)](https://www.udemy.com/course/ansible-para-sysadmin/)
+- [Aprenda Ansible – Clayton Passos (Udemy)](https://www.udemy.com/course/aprenda-ansible/)

@@ -13,6 +13,6 @@ My notes and hands-on exercises covering core programming logic and problem-solv
 
 ## 🎓 Sources
 
-- [Nelio Alves – Algoritmos e Lógica de Programação](https://www.udemy.com/course/curso-algoritmos-logica-de-programacao)
-- [Leonardo Moura Leitão – Algoritmo e Lógica de Programação](https://www.udemy.com/course/aprenda-programacao-do-absoluto-zero-o-seu-primeiro-curso)
-- [Geek University – Algoritmos e Lógica de Programação](https://www.udemy.com/course/algoritmos-e-logica-de-programacao-essencial)
+- [Algoritmos e Lógica de Programação - Nelio Alves (Udemy)](https://www.udemy.com/course/curso-algoritmos-logica-de-programacao)
+- [Algoritmo e Lógica de Programação - Cod3r (Udemy)](https://www.udemy.com/course/aprenda-programacao-do-absoluto-zero-o-seu-primeiro-curso)
+- [Algoritmos e Lógica de Programação - Geek University (Udemy)](https://www.udemy.com/course/algoritmos-e-logica-de-programacao-essencial)

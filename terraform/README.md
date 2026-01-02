@@ -1,21 +1,34 @@
-# 🛠️ Terraform
+# 🏗️ Terraform & Infrastructure as Code
 
-My notes and hands-on exercises for Infrastructure as Code (IaC) with Terraform.
+Notes and projects using **Terraform** to provision infrastructure  
+on AWS, Azure and Kubernetes.
 
-## 📘 Covered Topics
+## 🧠 Covered Topics
 
-- Terraform CLI: `init`, `plan`, `apply`, `destroy`, `fmt`, `validate`
-- HCL fundamentals: providers, resources, variables, outputs & locals
-- State management: remote backends (S3, GCS), locking & workspaces
-- Modules: design, usage, versioning & registry
-- Advanced constructs: `count`, `for_each`, dynamic blocks & conditions
-- Provisioners & Packer integration for immutable images
-- CI/CD integration: GitHub Actions & GitLab CI pipelines
-- Multicloud best practices: AWS, GCP & Azure
-- Terraform Cloud & Enterprise features
+### **Terraform Fundamentals**
+- Workflow (init, plan, apply, destroy)
+- Providers, resources, data sources
+- Variables, outputs, tfvars
+- Local & remote state
+- Backends and state locking
 
-## 🎓 Sources
+### **Module Design**
+- Reusable modules
+- Super-modules vs submodules
+- Versioning and best practices
+
+### **Cloud Provisioning**
+- AWS VPC, Subnets, Route Tables, IGW, NAT
+- EKS clusters (workers, node groups, OIDC)
+- Azure foundational resources
+
+### **CI/CD Integration**
+- GitHub Actions, GitLab CI, Azure DevOps pipelines
+
+## 📚 Sources
 
 - [Terraform Official Documentation](https://developer.hashicorp.com/terraform/docs)
-- [Full Cycle 3.0 – Terraform](https://fullcycle.com.br)
-- [LINUXtips – Descomplicando o Terraform](https://linuxtips.io/treinamento/descomplicando-o-terraform)
+- [Terraform - Full Cycle 3.0](https://fullcycle.com.br)
+- [Descomplicando o Terraform - LINUXtips](https://linuxtips.io/treinamento/descomplicando-o-terraform)
+- [Terraform Do Básico ao Avançado - Daniel Gil (Udemy)](https://www.udemy.com/course/terraform-do-basico-ao-avancado/)
+- [Terraform para AWS - Mateus Müller (Udemy)](https://www.udemy.com/course/terraform-para-aws/)

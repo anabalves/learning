@@ -1,6 +1,6 @@
 # 📚 Learning Repository
 
-Welcome to my **learning repository** — a collection of study notes, practical exercises and topic-based summaries from my ongoing technical education.  
+Welcome to my **learning repository** - a collection of study notes, practical exercises and topic-based summaries from my ongoing technical education.  
 Everything here was produced while studying on platforms like **Full Cycle**, **LINUXtips**, **Alura**, **Udemy** and more.
 
 ---
@@ -34,4 +34,4 @@ Across these folders you’ll find hands-on content on:
 ## 📝 Notes
 
 - See each module’s `README.md` for detailed topics and sources.
-- **Work in progress** — more modules added regularly.
+- **Work in progress** - more modules added regularly.

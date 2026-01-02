@@ -1,22 +1,44 @@
-# ☸️ Kubernetes
+# ☸️ Kubernetes & Container Orchestration
 
-My notes and hands-on exercises for container orchestration with Kubernetes.
+Notes, labs and experiments on **Kubernetes concepts**,  
+cluster administration, workloads, networking, storage and DevOps workflows.
 
-## 📘 Covered Topics
+## 🧠 Covered Topics
 
-- Kubernetes architecture: control plane, nodes & etcd
-- Pods, ReplicaSets, Deployments, StatefulSets & DaemonSets
-- Services, Ingress, DNS & networking (CNI plugins)
-- ConfigMaps, Secrets & storage (Volumes, PVCs, StorageClasses)
-- Resource management: requests, limits & QoS classes
-- Autoscaling: HPA, VPA & Cluster Autoscaler
-- YAML manifests & `kubectl` (imperative vs declarative)
-- Helm: chart structure, templating & release management
-- Monitoring & observability: Prometheus, Grafana & logs
-- Security: RBAC, NetworkPolicies & Pod Security Standards
-- Custom resources: CRDs, Operators & controllers
+### **Architecture**
+- Control Plane & Data Plane
+- API Server, Scheduler, Controller Manager, etcd, Kubelet, Kube-Proxy
 
-## 🎓 Sources
+### **Core Objects**
+- Pods, ReplicaSets, Deployments
+- DaemonSets, StatefulSets
+- Jobs, CronJobs
+
+### **Networking**
+- ClusterIP, NodePort, LoadBalancer
+- Ingress Controllers
+- CNI, CoreDNS, IPTables routing
+
+### **Storage**
+- Volumes, PersistentVolumes, PVCs
+- StorageClasses, dynamic provisioning
+
+### **Resilience & Scaling**
+- Liveness, Readiness, Startup probes
+- HPA, VPA
+- Pod disruption budgets
+
+### **Security & Operations**
+- RBAC, certificates, service accounts
+- Troubleshooting nodes/pods
+- Upgrades, affinity/anti-affinity
+
+## 📚 Sources
 
 - [Kubernetes Official Documentation](https://kubernetes.io/docs/)
-- [Full Cycle 3.0 – Kubernetes](https://fullcycle.com.br)
+- [Kubernetes - Full Cycle 3.0](https://fullcycle.com.br)
+- [Kubernetes: Do Básico ao Avançado - Mateus Müller (Udemy)](https://www.udemy.com/course/kubernetes-do-basico-ao-avancado/)
+- [Kubernetes Completo: Orquestração Docker + Projeto DevOps - Arnaldo Sousa (Udemy)](https://www.udemy.com/course/kubernetes-power-profissional-formacao-inicial-completa/)
+- [Orquestração de Containers com Kubernetes - Geek University (Udemy)](https://www.udemy.com/course/orquestracao-de-containers-com-kubernetes/)
+- [Kubernetes Descomplicado: Aprenda Praticando - Bruno Lacerda (Udemy)](https://www.udemy.com/course/kubernetes-descomplicado-aprenda-kubernetes-como-iniciante/)  
+- [Aprenda Kubernetes de maneira simples e rápida - Denilson Bonatti (Udemy)](https://www.udemy.com/course/aprenda-kubernetes-de-maneira-simples-e-rapida/)
