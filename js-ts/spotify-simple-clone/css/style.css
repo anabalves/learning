@@ -1,0 +1,231 @@
+:root {
+	--default-green: #1db954;
+	--light-green: #1ed760;
+}
+
+@font-face {
+    font-family: Circular;
+    src: url("../fonts/CircularStd-Book.otf") format("opentype");
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Circular', sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Utility Classes */
+.btn-primary {
+	background: var(--default-green);
+	color: white;
+	text-transform: uppercase;
+	padding: 15px 60px;
+	border: none;
+	border-radius: 30px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	transition: all 300ms ease;
+}
+
+.btn-primary:hover {
+	background: var(--light-green);
+	cursor: pointer;
+}
+
+.logo {
+	height: 40px;
+	width: auto;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    background-color: rgba(0,0,0,0.6);
+    justify-content: center;
+    color: #ffffff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+#navbar .navbar-container {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+
+#navbar .navbar-container .navbar-items {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+#navbar .navbar-container .navbar-items .navbar-item {
+	padding: 0 20px;
+	transition: all 300ms ease;
+}
+
+#navbar .navbar-container .navbar-items .navbar-item:hover {
+	color: var(--default-green);
+	cursor: pointer;
+}
+
+#navbar .navbar-container .navbar-items .navbar-item:nth-child(3) {
+    border-right: 1px solid #ffffff;
+}
+
+/* Showcase */
+#showcase {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: url("../img/showcase.jpg") center center/cover;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: color;
+}
+
+#showcase .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+#showcase .showcase-container h2 {
+    font-size: 5rem;
+}
+
+#showcase .showcase-container p {
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+
+/* Footer */
+#footer {
+    background: #000000;
+	color: #ffffff;
+	padding: 80px 0;
+}
+
+#footer .footer-content {
+	display: flex;
+	width: 60%;
+	margin: auto;
+	justify-content: space-between;
+}
+
+#footer .footer-content .footer-menu {
+    margin: 0 60px;
+	list-style: none;
+}
+
+#footer .footer-content .footer-menu p {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #919496;
+	font-size: 0.8rem;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item {
+    margin: 25px 0;
+	transition: all 300ms ease;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item:hover {
+	color: var(--default-green);
+	cursor: pointer;
+}
+
+/* Footer Socials */
+#footer .footer-content .socials {
+    display: flex;
+}
+
+#footer .footer-content .socials i {
+	margin: 0 20px;
+	font-size: 1.7rem;
+	transition: all 300ms ease;
+}
+
+#footer .footer-content .socials i:hover {
+	color: var(--default-green);
+	cursor: pointer;
+}
+
+/* Footer Info */
+#footer .footer-info {
+    display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 60%;
+	margin: auto;
+	font-weight: bold;
+	color: #919496;
+	font-size: 0.75rem;
+	padding-top: 50px;
+}
+
+#footer .footer-info .footer-info-items {
+    display: flex;
+	list-style: none;
+}
+
+#footer .footer-info .footer-info-items .footer-info-item {
+    margin: 0 10px;
+	transition: all 300ms ease;
+}
+
+#footer .footer-info .footer-info-items .footer-info-item:hover {
+	color: var(--default-green);
+	cursor: pointer;
+}
+
+#footer .footer-info .rights .country {
+    display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+#footer .footer-info .rights .country p {
+    transition: all 300ms ease;
+}
+
+#footer .footer-info .rights .country p:hover {
+	color: var(--default-green);
+	cursor: pointer;
+}
+
+#footer .footer-info .rights .country .brazil-flag {
+    height: 20px;
+	width: auto;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--default-green); 
+}
